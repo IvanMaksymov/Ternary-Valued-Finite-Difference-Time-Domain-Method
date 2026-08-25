@@ -1,4 +1,4 @@
-# Ternary-Valued-Finite-Difference-Time-Domain-Method
+# Ternary-Valued Finite-Difference Time-Domain (FDTD) Method
 Computer codes that create the figures for the `Ternary-Valued Finite-Difference Time-Domain Method` article
 
 ** Figure 1 **
