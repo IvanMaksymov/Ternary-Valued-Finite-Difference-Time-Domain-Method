@@ -12,3 +12,8 @@ rm -f convergence.txt
      ./cv
    done
 ```
+Then, use GNU Octave/MATLAB:
+
+```bash
+octave plot_convergence_V2.m
+```
