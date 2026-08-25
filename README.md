@@ -17,3 +17,18 @@ Then, use GNU Octave/MATLAB:
 ```bash
 octave plot_convergence_V2.m
 ```
+** Figure 2 **
+
+First, generate `probe_fixed.txt`:
+
+```bash
+gcc -O3 -o aef ternary_fdtd_fixed_scattering.c -lm
+./aef
+```
+
+Then, use GNU Octave/MATLAB:
+
+```bash
+octave compare.m
+```
+
