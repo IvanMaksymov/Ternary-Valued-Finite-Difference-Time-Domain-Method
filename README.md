@@ -32,3 +32,16 @@ Then, use GNU Octave/MATLAB:
 octave compare.m
 ```
 
+** Figure 3 **
+
+First, generate the snapshots by running:
+
+```bash
+gcc -O3 -o aef ternary_fdtd_fixed_scattering.c -lm
+./aef
+```
+Then, use GNU Octave/MATLAB:
+
+```bash
+octave snapshot_overlay.m
+```
